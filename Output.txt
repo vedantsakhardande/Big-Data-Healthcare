@@ -1,0 +1,48 @@
+C:\Users\Vedant Sakhardande\Desktop\Big Data HealthCare>python healthcare.py
+Missing Python executable '/usr/bin/python3', defaulting to 'C:\Python27\Lib\site-packages\pyspark\bin\..' for SPARK_HOME environment variable. Please install Python or specify the correct Python executable in PYSPARK_DRIVER_PYTHON or PYSPARK_PYTHON environment variable to detect SPARK_HOME safely.
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
++------+-------------+----------------+
+|gender|count(gender)|      percentage|
++------+-------------+----------------+
+|  Male|          352|1.98600767321146|
++------+-------------+----------------+
+
++------+-------------+----------------+
+|gender|count(gender)|      percentage|
++------+-------------+----------------+
+|Female|          431|1.67932982661212|
++------+-------------+----------------+
+
++----+---------+
+| age|age_count|
++----+---------+
+|79.0|       70|
+|78.0|       57|
+|80.0|       49|
+|81.0|       43|
+|82.0|       36|
+|70.0|       25|
+|77.0|       24|
+|74.0|       24|
+|76.0|       24|
+|67.0|       23|
+|75.0|       23|
+|72.0|       21|
+|59.0|       20|
+|69.0|       20|
+|68.0|       20|
+|71.0|       19|
+|57.0|       19|
+|63.0|       18|
+|65.0|       18|
+|66.0|       17|
++----+---------+
+only showing top 20 rows
+
+A Decision Tree algorithm had an accuracy of: 98.20%
+
+C:\Users\Vedant Sakhardande\Desktop\Big Data HealthCare>SUCCESS: The process with PID 26848 (child process of PID 16492) has been terminated.
+SUCCESS: The process with PID 16492 (child process of PID 31268) has been terminated.
+SUCCESS: The process with PID 31268 (child process of PID 27072) has been terminated.
